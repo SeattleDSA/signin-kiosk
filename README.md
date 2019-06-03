@@ -10,7 +10,7 @@ A simple standalone signin app for SDSA business meetings
 
 To run a local dev server,
 
-- `bin/dev-server`
+- `bin/dev-server  # reachable at http://localhost:18080`
 
 To build index.html and app.js
 
