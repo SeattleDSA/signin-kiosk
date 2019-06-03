@@ -27,6 +27,7 @@ const PAGE_SIZE = 25;
 export default function Signin(props) {
   const {
     filteredMembers,
+    filter,
     checkins,
     onUpdateSearch,
     onCreateCheckIn,
@@ -43,7 +44,9 @@ export default function Signin(props) {
   return (
     <Pane>
       <Heading>Signin</Heading>
-      <Heading size={400}>{_.size(filteredMembers)} members</Heading>
+      <Heading size={400}>
+        {_.size(filteredMembers)} members ({filter})
+      </Heading>
       <Heading size={400}>{_.size(checkins)} checked in</Heading>
       {error ? (<Alert intent="danger">{_.get(error, 'message', error)}</Alert>) : null}
       <Table>
