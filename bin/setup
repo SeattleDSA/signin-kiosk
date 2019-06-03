@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build . -t sdsa-checkin-kiosk:latest

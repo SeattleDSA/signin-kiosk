@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v `pwd`:/sdsa-checkin-kiosk:rw sdsa-checkin-kiosk:latest /bin/sh

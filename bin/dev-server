@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v `pwd`:/sdsa-checkin-kiosk:rw -p 18080:8080 sdsa-checkin-kiosk:latest /bin/sh -c "yarn run devServer"
