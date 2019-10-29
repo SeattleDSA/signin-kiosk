@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "connected-react-router": "^6.4.0",
-    "csv-parse": "^4.4.3",
+    "csv-parse": "^4.4.6",
     "evergreen-ui": "^4.17.0",
     "history": "^4.9.0",
     "lodash": "^4.17.11",
